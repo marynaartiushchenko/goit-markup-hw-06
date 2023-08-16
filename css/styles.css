@@ -1,0 +1,15 @@
+.header-hero {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 2%;
+  background-color: #2e2f42;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
