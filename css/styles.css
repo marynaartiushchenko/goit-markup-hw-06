@@ -5,6 +5,16 @@
   letter-spacing: 0.02em;
   background-color: #2e2f42;
 }
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -26,12 +36,15 @@
 .navigation-list:focus {
   color: #404bbf;
 }
-
-.body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
+.address {
+  font-style: normal;
+}
+.email {
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0.02em;
+  color: #434455;
+}
+.email:hover,
+.email:focus {
+  color: #404bbf;
 }
