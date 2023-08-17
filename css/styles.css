@@ -55,7 +55,7 @@
   text-align: center;
   color: #ffffff;
 }
-.button {
+.button-text {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -65,8 +65,8 @@
   color: #ffffff;
   cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.button-text:hover,
+.button-text:focus {
   background-color: #404bbf;
 }
 .main-content-item {
@@ -85,12 +85,11 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-card-list {
-  background-color: #ffffff;
+.team-section {
+  background-color: #f4f4fd;
 }
 .team {
   color: 2e2F42;
-  background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -98,6 +97,9 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.team-card {
+  background-color: #ffffff;
 }
 .team-card-item {
   color: #2e2f42;
@@ -111,10 +113,9 @@
 .portfolio-section {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .project-card-item {
@@ -123,14 +124,13 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #2e2f42;
 }
 .footer {
   background-color: #2e2f42;
 }
 .logo-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
