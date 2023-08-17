@@ -1,12 +1,19 @@
-.body {
+button {
+  cursor: pointer;
+}
+body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+.body {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  letter-spacing: 0.02em;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -15,18 +22,16 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-part {
   color: #2e2f42;
 }
 .navigation-item {
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .navigation-list-item {
   font-weight: 500;
-  color: #2e2f42;
 }
 .navigation-list-item:focus,
 .navigation-list-item:hover {
@@ -51,13 +56,11 @@
   font-weight: bold;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 .button-text {
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -73,58 +76,43 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .paragraph {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .team-section {
   background-color: #f4f4fd;
 }
 .team {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .team-card {
   background-color: #ffffff;
 }
 .team-card-item {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 .portfolio-section {
-  font-family: "Roboto", sans-serif;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
 }
 .project-card-item {
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .footer {
   background-color: #2e2f42;
@@ -137,16 +125,15 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-part-footer {
   color: #f4f4fd;
 }
 .footer-p {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
 }
