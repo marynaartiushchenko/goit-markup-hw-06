@@ -35,37 +35,29 @@
 .address {
   font-style: normal;
 }
-.email {
+.contacts {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
 }
-.email:hover,
-.email:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
-.tel {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-}
-.tel:hover,
-.tel:focus {
-  color: #404bbf;
-}
-
 .header-hero {
+  background-color: #2e2f42;
+}
+.hero-title {
   font-weight: bold;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  background-color: #2e2f42;
   text-align: center;
   color: #ffffff;
 }
 .button {
   background-color: #4d5ae5;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,6 +76,56 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team-card-list {
+  background-color: #ffffff;
+}
+.team {
+  color: 2e2F42;
+  background-color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-card-item {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.portfolio-section {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.project-card-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
 .footer {
   background-color: #2e2f42;
 }
@@ -100,5 +142,11 @@
   color: #f4f4fd;
 }
 .footer-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
   color: #f4f4fd;
 }
