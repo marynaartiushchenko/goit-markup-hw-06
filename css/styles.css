@@ -7,7 +7,6 @@ ol {
 }
 button {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -69,6 +68,9 @@ body {
   color: #ffffff;
   letter-spacing: 0.02em;
 }
+.button {
+  font-family: "Roboto", sans-serif;
+}
 .button-text {
   background-color: #4d5ae5;
   font-weight: 500;
@@ -87,6 +89,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .paragraph {
@@ -114,6 +117,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-section {
   font-size: 36px;
@@ -127,6 +131,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .footer {
   background-color: #2e2f42;
