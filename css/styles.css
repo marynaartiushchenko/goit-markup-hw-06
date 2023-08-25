@@ -35,10 +35,10 @@ img {
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -74,7 +74,6 @@ body {
 }
 .navigation-item {
   line-height: 1.5;
-  padding: 24px 0;
 }
 
 .navigation-list-item:focus,
@@ -87,6 +86,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .address {
   font-style: normal;
@@ -110,11 +110,11 @@ body {
 }
 .header-hero-container {
   height: 600px;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 .header-hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   max-width: 496px;
@@ -152,6 +152,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .button-text:hover,
 .button-text:focus {
