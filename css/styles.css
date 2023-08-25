@@ -87,14 +87,16 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 .address {
   font-style: normal;
+  padding: 24px 0 24px 332px;
 }
 .contact-info {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+
   align-items: center;
 }
 .contacts {
@@ -121,7 +123,7 @@ body {
   font-weight: bold;
   font-size: 56px;
   line-height: 1.07;
-  /* text-align: center; */
+  margin: auto;
   display: flex;
   color: #ffffff;
   letter-spacing: 0.02em;
@@ -134,19 +136,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-
-/* .button-class {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    padding: 16px 32px;
-    border-radius: 4px;
-    text-align: center;
-    cursor: pointer;
-  } */
-.button-text {
+  margin: auto;
+  padding-top: 48px;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -154,6 +145,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .button-text:hover,
 .button-text:focus {
   background-color: #404bbf;
