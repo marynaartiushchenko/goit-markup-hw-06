@@ -137,7 +137,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   margin: auto;
-  padding-top: 48px;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -162,9 +161,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.main-content-container {
-  padding: 120px 0;
-}
+
 .main-content {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -194,7 +191,8 @@ body {
 
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-card-list {
   display: flex;
