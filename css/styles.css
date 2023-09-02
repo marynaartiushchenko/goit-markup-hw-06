@@ -99,6 +99,7 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  content: "";
 }
 .address {
   font-style: normal;
@@ -127,9 +128,6 @@ body {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-
-.header-hero-container {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -140,6 +138,10 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+/* .header-hero-container {
+
+} */
 .hero-title {
   max-width: 496px;
   font-weight: bold;
