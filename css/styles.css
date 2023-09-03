@@ -73,11 +73,12 @@ body {
 }
 .navigation-item {
   line-height: 1.5;
-}
-.navigation-list-item:focus,
-.navigation-list-item:hover {
   color: #404bbf;
 }
+/* .navigation-list-item:focus,
+.navigation-list-item:hover {
+ 
+} */
 
 .navigation-list-item {
   color: #2e2f42;
@@ -105,7 +106,6 @@ body {
 .contact-info {
   display: flex;
   gap: 40px;
-
   align-items: center;
 }
 .contacts {
@@ -130,12 +130,16 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.header-hero-container {
+  max-width: 1440px;
+  background-position: center;
+  background-size: cover;
+}
 .hero-title {
   max-width: 496px;
   font-weight: bold;
