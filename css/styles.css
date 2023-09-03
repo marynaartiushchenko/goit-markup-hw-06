@@ -121,6 +121,7 @@ body {
 }
 
 .header-hero {
+  max-width: 1440px;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -131,11 +132,9 @@ body {
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 
 .header-hero-container {
-  max-width: 1440px;
   background-position: center;
   background-size: cover;
 }
