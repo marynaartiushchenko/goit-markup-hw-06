@@ -74,16 +74,16 @@ body {
 .navigation-item {
   line-height: 1.5;
 }
-
-.navigation-list-item:focus {
+.navigation-list-item:focus,
+.navigation-list-item:hover {
   color: #404bbf;
 }
 
 .navigation-list-item {
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
   padding: 24px 0;
   display: block;
   position: relative;
