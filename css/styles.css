@@ -115,7 +115,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -1px;
-  color: var(--OCEAN, #404bbf);
+  background-color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -155,10 +155,6 @@ body {
   background-size: cover;
 }
 
-/* .header-hero-container {
-  background-position: center;
-  background-size: cover;
-} */
 .hero-title {
   max-width: 496px;
   font-weight: bold;
