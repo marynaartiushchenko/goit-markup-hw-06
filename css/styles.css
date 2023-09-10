@@ -467,20 +467,46 @@ body {
 .footer-link:focus {
   background-color: #31d0aa;
 }
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
 .subscribe-paragraph {
+  margin-bottom: 16px;
   color: var(--WHITE, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
 .subscribe-input::placeholder {
-  color: var(--WHITE, #fff);
+  color: #ffffff;
   font-size: 12px;
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.04em;
+}
+
+.submit-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
 }
 .backdrop {
   position: fixed;
@@ -535,7 +561,6 @@ body {
 
 .close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   fill: #ffffff;
 }
 .modal-text {
