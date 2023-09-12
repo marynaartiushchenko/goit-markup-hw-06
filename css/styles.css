@@ -609,9 +609,12 @@ body {
 }
 
 .user-info-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
+.user-info-wrapper-comment {
+  margin-bottom: 16px;
+}
 .user-information-field-wrapper {
   position: relative;
 }
@@ -648,8 +651,11 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-form:focus + .name {
+.input-form:focus {
   border-color: #4d5ae5;
+}
+
+.input-form:focus + .name {
   fill: #4d5ae5;
 }
 
