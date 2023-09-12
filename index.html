@@ -577,7 +577,7 @@
     </footer>
 
     <!-- BACKDROP WITH MODAL WINDOW -->
-    <div class="backdrop-is-open">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg
@@ -600,7 +600,7 @@
                 type="text"
                 id="user-name"
                 name="user-name"
-                pattern="[a-zA-Zаʼ]+"
+                pattern="[a-zA-Zʼ]+"
                 required
               />
               <svg
@@ -621,7 +621,7 @@
                 type="tel"
                 id="user-phone-number"
                 name="telephone"
-                pattern="[0-9]"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 required
               />
               <svg
@@ -677,17 +677,19 @@
               <span class="review-form-own-checkbox">
                 <svg
                   class="review-form-own-checkbox-icon"
-                  width="10"
-                  height="8"
+                  width="16"
+                  height="16"
                   aria-label="checkbox icon"
                 >
                   <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="review-form-privacy-link accent-color" href=""
-                >Privacy Policy</a
-              >
+              <p class="terms">
+                I accept the terms and conditions of the
+                <a class="review-form-privacy-link accent-color" href=""
+                  >Privacy Policy</a
+                >
+              </p>
             </label>
           </div>
           <button class="submit-btn" type="submit">Send</button>
