@@ -609,7 +609,7 @@ body {
 }
 
 .user-info-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .user-information-field-wrapper {
@@ -693,6 +693,10 @@ body {
   letter-spacing: 0.04em;
 }
 .review-form-own-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
   margin-right: 8px;
   width: 16px;
   height: 16px;
@@ -701,10 +705,6 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
 }
 
 .review-form-checkbox:checked
@@ -712,6 +712,7 @@ body {
   > .review-form-own-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 
 .accent-color {
