@@ -688,7 +688,6 @@ body {
 }
 
 .review-form-checkbox-label {
-  display: flex;
   align-items: center;
   justify-items: center;
   stroke-width: 1px;
