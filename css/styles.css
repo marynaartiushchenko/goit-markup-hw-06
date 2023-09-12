@@ -609,7 +609,7 @@ body {
 }
 
 .user-info-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .user-information-field-wrapper {
@@ -649,6 +649,7 @@ body {
 }
 
 .input-form:focus + .name {
+  border-color: #4d5ae5;
   fill: #4d5ae5;
 }
 
@@ -674,6 +675,10 @@ body {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-form-checkbox-wrapper {
+  margin-bottom: 24px;
 }
 
 .review-form-checkbox-label {
