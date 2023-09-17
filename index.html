@@ -16,7 +16,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./css/index.css"
+      <link
+      rel="stylesheet"
+      href="./css/styles.css"
+    />
     <title>Document</title>
   </head>
   <!-- PAGE HEADER -->
@@ -53,18 +59,28 @@
             </li>
           </ul>
         </address>
+        <button class="open-mobile-menu-btn">
+          <svg
+            class="open-mobile-menu-btn-icon"
+            width="24"
+            height="24"
+            aria-label="mobile menu open icon"
+          >
+            <use href="./images/icons.svg#icon-menu_btn"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- HERO SECTION -->
-    <main>
+    <!-- <main>
       <section class="header-hero">
         <div class="container header-hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button-text">Order Service</button>
         </div>
-      </section>
-      <!-- MAIN CONTENT -->
-      <section class="main-content">
+      </section> -->
+    <!-- MAIN CONTENT -->
+    <!-- <section class="main-content">
         <div class="container main-content-container">
           <h2 class="visually-hidden">Our Mission</h2>
           <ul class="main-content-list">
@@ -481,11 +497,11 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- PAGE FOOTER -->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="container-logo">
           <a class="logo-footer logo-link-footer" href="./index.html"
@@ -574,10 +590,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- BACKDROP WITH MODAL WINDOW -->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg
@@ -693,6 +709,51 @@
           <button class="submit-btn" type="submit">Send</button>
         </form>
       </div>
+    </div> -->
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+      <button class="mobile-menu-close-btn" type="button">
+        <svg
+          class="mobile-menu-close-icon"
+          width="8"
+          height="8"
+          aria-label="mobile menu close icon"
+        >
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="mobile-navigation-container">
+        <nav class="mobile-navigation">
+          <ul class="mobile-navigation-list">
+            <li class="mobile-navigation-item">
+              <a href="./index.html" class="mobile-navigation-item-studio"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-navigation-item">
+              <a href="" class="mobile-navigation-list-item">Portfolio</a>
+            </li>
+            <li class="mobile-navigation-item">
+              <a href="" class="mobile-navigation-list-item">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <address class="mobile-address">
+        <ul class="mobile-contact-info">
+          <li>
+            <a href="tel:+110001111111" class="mobile-contacts-phone"
+              >+11 (000) 111-11-11
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="mobile-contacts-email"
+              >info@devstudio.com
+            </a>
+          </li>
+        </ul>
+      </address>
     </div>
   </body>
 </html>
