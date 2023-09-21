@@ -1,4 +1,6 @@
-@media screen and (min-width: 320px) {
+/* MOBILE */
+
+@media screen and (min-width: 320px) and (maw-width: 767px) {
   .main-content-icon {
     display: none;
   }
@@ -21,6 +23,40 @@
     color: #434455;
     letter-spacing: 0.02em;
     font-weight: 500;
+    margin-bottom: 72px;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .main-content-list {
+    margin-top: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .main-content-icon {
+    display: none;
+  }
+
+  .main-content-item {
+    width: 100%;
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+
+  .main-content-list-item {
+    display: flex;
+    width: 356px;
+    flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 72px;
   }
 }
@@ -59,12 +95,11 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
 }
 
  */
 
-/* TEAM SECTION */
+/* MOBILE TEAM SECTION */
 @media screen and (min-width: 320px) {
   .team-section-container {
     max-width: 296px;
@@ -182,18 +217,11 @@
 
 
 
-
-
-
-
-
-
-.social-link:hover,
-.social-link:focus {
+/* .social-link:hover, .social-link:focus {
   background-color: #404bbf;
-}
+} */
 
- */
+*/
 /*  */
 /* PORTFOLIO SECTION */
 @media screen and (min-width: 320px) {
