@@ -2,3 +2,6 @@
 @import "./base/common.css";
 @import "./base/section.css";
 @import "./layout/header.css";
+@import "./layout/hero.css";
+@import "./layout/footer.css";
+@import "./layout/modal-window.css";
