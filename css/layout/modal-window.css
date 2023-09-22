@@ -1,25 +1,45 @@
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* MOBILE */
+
 @media screen and (min-width: 320px) {
-  .backdrop.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-
-  .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999999;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.4);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
   .modal {
     position: absolute;
     top: 50%;
@@ -30,24 +50,6 @@
     width: 288px;
     height: 623px;
     border-radius: 4px;
-  }
-
-  .close-btn {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .modal-text {
@@ -152,6 +154,7 @@
 
   .review-form-own-checkbox {
     display: flex;
+    flex-shrink: 0;
     gap: 8px;
     margin-right: 8px;
     align-items: center;
@@ -167,6 +170,8 @@
   }
 
   .review-form-checkbox-label {
+    display: flex;
+    align-items: center;
     justify-items: center;
     stroke-width: 1px;
     color: #8e8f99;
@@ -177,97 +182,120 @@
   }
 
   .submit-btn {
-  display: block;
-  align-items: center;
-  padding: 16px 32px;
-  margin-top: 24px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 24px;
-  border: none;
-  border-radius: 4px;
-  background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  min-width: 169px;
-  height: 56px;
-  color: #ffffff;
-  text-align: center;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    align-items: center;
+    padding: 16px 32px;
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    min-width: 169px;
+    height: 56px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
-/* 
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    padding: 8px 16px 9px 16px;
+    background: #fcfcfc;
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+  }
 
+  .modal-text {
+    width: 360px;
+    margin-right: 23px;
+  }
 
-.modal {
-  
-  padding: 72px 24px 24px 24px;
-  width: 408px;
-  min-height: 584px;
-  border-radius: 4px;
-  
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .user-info-wrapper {
+    width: 360px;
+    margin-left: 7px;
+  }
+
+  .user-info-wrapper-comment {
+    width: 360px;
+    margin-left: 7px;
+  }
+
+  .input-form-comment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .review-form-checkbox-label {
+    margin-left: 7px;
+  }
 }
 
+/* DESKTOP */
+@media screen and (min-width: 1158px) {
+  .modal {
+    padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
+  .close-btn:hover,
+  .close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
+  }
 
-.close-btn:hover,
-.close-btn:focus {
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
+  .close-btn-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #2e2f42;
+  }
+
+  .input-form-comment:focus {
+    border-color: #4d5ae5;
+  }
+
+  .input-form:focus {
+    border-color: #4d5ae5;
+  }
+
+  .input-form:focus + .name {
+    fill: #4d5ae5;
+  }
+
+  .accent-color {
+    color: #4d5ae5;
+    text-decoration-line: underline;
+  }
+
+  .submit-btn {
+    cursor: pointer;
+  }
+
+  .submit-btn:hover,
+  .submit-btn:focus {
+    border: none;
+    background: #404bbf;
+  }
 }
-
-.close-btn-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #2e2f42;
-}
-
-
-
-
-
-
-.input-form-comment:focus {
-  border-color: #4d5ae5;
-}
-
-
-
-.input-form:focus {
-  border-color: #4d5ae5;
-}
-
-.input-form:focus + .name {
-  fill: #4d5ae5;
-}
-
-
-
-
-
-
-
-
-
-
-
-.accent-color {
-  color: #4d5ae5;
-  text-decoration-line: underline;
-}
-
-.submit-btn { cursor: pointer;}
-
-.submit-btn:hover,
-.submit-btn:focus {
-  border: none;
-  background: #404bbf;
-} */
