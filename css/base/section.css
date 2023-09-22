@@ -1,9 +1,10 @@
 /* MOBILE */
 
-@media screen and (min-width: 320px) and (maw-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main-content-icon {
     display: none;
   }
+
   .main-content-item {
     width: 100%;
     color: #2e2f42;
