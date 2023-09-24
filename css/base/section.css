@@ -1,8 +1,25 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* MOBILE */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .main-content-icon {
     display: none;
+  }
+
+  .main-content-list {
+    margin-bottom: 96px;
   }
 
   .main-content-item {
@@ -145,6 +162,7 @@
   .overlay {
     display: none;
   }
+
   .project-card-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
