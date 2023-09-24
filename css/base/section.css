@@ -14,8 +14,13 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-top: 96px;
+    padding-top: 96px;
     margin-bottom: 8px;
+  }
+
+  .main-content-list-item {
+    display: flex;
+    flex-direction: column;
   }
 
   .paragraph {
@@ -24,17 +29,13 @@
     color: #434455;
     letter-spacing: 0.02em;
     font-weight: 500;
-    margin-bottom: 72px;
   }
 
   .team-section-container {
     max-width: 296px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .team-card-container {
-    width: 232px;
     margin-right: auto;
     margin-left: auto;
     padding: 32px 0;
@@ -58,11 +59,10 @@
 
   .team-section {
     background-color: #f4f4fd;
-    margin-top: 24px;
     padding-bottom: 24px;
   }
   .team {
-    margin-top: 96px;
+    padding-top: 96px;
     margin-right: auto;
     margin-bottom: 72px;
     margin-left: auto;
@@ -95,7 +95,6 @@
   }
 
   .team-card-social-list {
-    width: 232px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +171,9 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 72px;
     padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .main-content-icon {
@@ -194,7 +195,6 @@
     width: 356px;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 72px;
   }
 
   .team-section {
@@ -202,7 +202,7 @@
   }
 
   .team-section-container {
-    padding: 0 16px;
+    padding-bottom: 96px;
   }
 
   .team {
@@ -295,7 +295,7 @@
   .portfolio-section {
     display: flex;
     justify-content: center;
-    margin-bottom: 96px;
+    padding-bottom: 96px;
   }
 
   .project-card-item {
@@ -326,7 +326,7 @@
 
   .portfolio-paragraph {
     font-weight: 400;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
   }
 
   .project-card-list-item {

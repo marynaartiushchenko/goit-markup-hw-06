@@ -142,23 +142,20 @@
   }
 
   .container-logo {
+    padding-top: 96px;
+    padding-left: 92px;
     display: block;
     margin-bottom: 16px;
   }
 
   .footer-p {
+    padding-top: 17px;
     font-size: 16px;
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
     width: 264px;
     margin-bottom: 72px;
-    margin-left: 86px;
-  }
-
-  .footer-social-links {
-    margin-left: 120px;
-    margin-top: 0;
   }
 
   .social-media {
@@ -183,6 +180,7 @@
   }
 
   .footer-social-links {
+    padding-top: 96px;
     display: block;
     margin-bottom: 16px;
   }

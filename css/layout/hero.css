@@ -9,10 +9,11 @@
         rgba(46, 47, 66, 0.7)
       ),
       url("../../images/mobile/dark-bg@2x.jpg");
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
   .hero-title {
-    padding-top: 72px;
     padding-bottom: 72px;
     color: #fff;
     text-align: center;
@@ -68,14 +69,15 @@
         rgba(46, 47, 66, 0.7)
       ),
       url("../../images/tablet/dark-bg@2x.jpg");
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
 
   .hero-title {
-    padding-top: 72px;
     padding-bottom: 72px;
     color: #fff;
     text-align: center;
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
