@@ -31,3 +31,16 @@ body {
   background-color: #ffffff;
   text-decoration: none;
 }
+
+header {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
