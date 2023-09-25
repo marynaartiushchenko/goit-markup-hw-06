@@ -1,7 +1,3 @@
-.footer {
-  background-color: #2e2f42;
-}
-
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -20,9 +16,14 @@
 /* MOBILE */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    background-color: #2e2f42;
+    padding-top: 97px;
+    padding-bottom: 96px;
+  }
+
   .logo-link-footer {
     display: flex;
-    padding-top: 96px;
     padding-bottom: 16px;
     text-align: center;
     justify-content: center;
@@ -135,6 +136,10 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer {
+    background-color: #2e2f42;
+  }
+
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -261,6 +266,10 @@
 /* DESKTOP */
 
 @media screen and (min-width: 1158px) {
+  .footer {
+    background-color: #2e2f42;
+  }
+
   .footer-container {
     display: flex;
     align-items: center;
