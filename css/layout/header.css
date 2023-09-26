@@ -22,7 +22,7 @@
 
 /* MOBILE */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navigation-list {
     display: none;
   }
@@ -49,6 +49,8 @@
   }
 
   .mobile-menu {
+    display: flex;
+    flex-direction: column;
     padding: 24px 24px 40px 16px;
     position: fixed;
     left: 0;
@@ -115,15 +117,15 @@
     text-transform: capitalize;
   }
 
+  .mobile-contacts {
+    margin-top: auto;
+  }
+
   .mobile-contact-info {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-  }
-
-  .mobile-address {
-    padding-bottom: 0;
   }
 
   .mobile-contacts-phone {
@@ -145,7 +147,7 @@
   }
 
   .mobile-social-links {
-    padding-bottom: 0;
+    margin-top: 48px;
   }
 
   .mobile-links-list {
@@ -255,6 +257,8 @@
   }
 
   .contact-info {
+    display: flex;
+    flex-direction: column;
     gap: 12px;
     margin-left: auto;
     margin-top: auto;

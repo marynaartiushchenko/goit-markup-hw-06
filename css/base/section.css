@@ -139,12 +139,13 @@
   }
 
   .portfolio {
+    width: 320px;
     padding-top: 96px;
     padding-bottom: 96px;
   }
 
   .portfolio-section-container {
-    width: 320px;
+    width: 320;
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -172,7 +173,6 @@
   }
 
   .project-card-container {
-    width: 288px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -183,6 +183,7 @@
   }
 
   .project-card-list-item {
+    width: 288px;
     background: #fff;
     margin-bottom: 48px;
   }

@@ -15,7 +15,7 @@
 
 /* MOBILE */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
     background-color: #2e2f42;
     padding-top: 97px;
