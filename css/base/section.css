@@ -13,7 +13,7 @@
 
 /* MOBILE */
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .main-content {
     padding-top: 96px;
     padding-bottom: 96px;
