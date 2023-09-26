@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     gap: 16px;
+    margin-bottom: 72px;
   }
 
   .footer-link-item {
@@ -73,11 +74,10 @@
   }
 
   .footer-social-links {
-    padding-top: 72px;
+    margin-top: 72px;
   }
 
   .subscribe-paragraph {
-    padding-top: 72px;
     margin-bottom: 16px;
     color: #fff;
     font-size: 16px;

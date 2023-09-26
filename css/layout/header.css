@@ -57,6 +57,7 @@
     width: 100%;
     height: 100%;
     background-color: #fff;
+    display: block;
   }
 
   .mobile-menu-close-btn {
@@ -254,6 +255,7 @@
   }
 
   .contact-info {
+    gap: 12px;
     margin-left: auto;
     margin-top: auto;
   }

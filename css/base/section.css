@@ -65,17 +65,16 @@
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    margin-bottom: 72px;
     margin-right: 0;
   }
 
   .team-section {
     background-color: #f4f4fd;
-    padding-bottom: 24px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .team {
-    padding-top: 96px;
     margin-bottom: 72px;
     margin-left: auto;
     font-weight: 700;
@@ -88,6 +87,10 @@
   }
 
   .team-card-list {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -137,11 +140,13 @@
 
   .portfolio {
     padding-top: 96px;
-    padding-bottom: 48px;
+    padding-bottom: 96px;
   }
 
   .portfolio-section-container {
-    width: 288px;
+    width: 320px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   .portfolio-section {
@@ -151,7 +156,6 @@
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 72px;
   }
 
   .project-card-item {
@@ -168,6 +172,7 @@
   }
 
   .project-card-container {
+    width: 288px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
