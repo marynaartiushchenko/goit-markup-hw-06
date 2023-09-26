@@ -266,6 +266,7 @@
   .user-info-wrapper-comment {
     margin-bottom: 16px;
   }
+
   .user-information-field-wrapper {
     position: relative;
   }
@@ -331,6 +332,7 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
   }
+
   .review-form-checkbox-wrapper {
     margin-bottom: 24px;
   }
@@ -345,6 +347,7 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
   }
+
   .review-form-own-checkbox {
     display: inline-flex;
     align-items: center;
@@ -542,6 +545,7 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
   }
+
   .review-form-checkbox-wrapper {
     margin-bottom: 24px;
   }

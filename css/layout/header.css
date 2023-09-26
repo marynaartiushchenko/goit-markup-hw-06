@@ -49,6 +49,7 @@
   }
 
   .mobile-menu {
+    padding: 24px 24px 40px 16px;
     position: fixed;
     left: 0;
     top: 0;
@@ -89,8 +90,10 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-    padding-top: 72px;
-    padding-left: 16px;
+  }
+
+  .mobile-navigation-container {
+    padding-top: auto;
   }
 
   .mobile-navigation-item-studio {
@@ -112,12 +115,14 @@
   }
 
   .mobile-contact-info {
-    margin-top: 168px;
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-    padding-left: 16px;
+  }
+
+  .mobile-address {
+    padding-bottom: 0;
   }
 
   .mobile-contacts-phone {
@@ -138,10 +143,11 @@
     letter-spacing: 0.02em;
   }
 
+  .mobile-social-links {
+    padding-bottom: 0;
+  }
+
   .mobile-links-list {
-    padding-top: 48px;
-    margin-bottom: 40px;
-    margin-left: 16px;
     display: flex;
     gap: 40px;
   }
@@ -168,6 +174,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
   .page-header-container {
+    width: 768px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -258,6 +265,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mobile-menu {
+    display: none;
   }
 }
 
@@ -360,5 +371,9 @@
   .contacts:hover,
   .contacts:focus {
     color: #404bbf;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 }
