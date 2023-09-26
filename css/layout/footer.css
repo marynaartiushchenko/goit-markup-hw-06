@@ -24,7 +24,7 @@
 
   .logo-link-footer {
     display: flex;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     text-align: center;
     justify-content: center;
   }
@@ -35,6 +35,8 @@
     color: #f4f4fd;
     letter-spacing: 0.02em;
     width: 288px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .social-media {
@@ -138,20 +140,16 @@
 @media screen and (min-width: 768px) and (max-width: 1158px) {
   .footer {
     background-color: #2e2f42;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .footer-container {
+    width: 584px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
-  }
-
-  .container-logo {
-    padding-top: 96px;
-    padding-left: 92px;
-    display: block;
-    margin-bottom: 16px;
   }
 
   .footer-p {
@@ -185,12 +183,6 @@
     height: 40px;
   }
 
-  .footer-social-links {
-    padding-top: 96px;
-    display: block;
-    margin-bottom: 16px;
-  }
-
   .footer-link {
     width: 100%;
     height: 100%;
@@ -204,8 +196,7 @@
   }
 
   .subscribe-paragraph {
-    padding-bottom: 16px;
-    padding-left: 90px;
+    margin-bottom: 16px;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -215,8 +206,6 @@
 
   .subscribe-form {
     display: flex;
-    margin-bottom: 96px;
-    margin-left: 90px;
     gap: 24px;
   }
 
@@ -391,6 +380,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
   }
+
   .submit-btn-footer:hover,
   .submit-btn-footer:focus {
     background: #404bbf;
