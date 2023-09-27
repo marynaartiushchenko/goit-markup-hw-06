@@ -187,7 +187,8 @@
   }
 
   .project-card-list-item {
-    background: #fff;
+    border: 1px solid #f4f4fd;
+    background: var(--WHITE, #fff);
     margin-bottom: 48px;
   }
 }
@@ -267,7 +268,7 @@
   }
 
   .team-card-container {
-    margin-top: 32px;
+    padding-top: 32px;
     padding-bottom: 32px;
   }
 
