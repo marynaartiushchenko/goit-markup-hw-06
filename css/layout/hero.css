@@ -158,7 +158,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1440px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .hero-title {

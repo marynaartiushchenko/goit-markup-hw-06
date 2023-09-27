@@ -184,12 +184,14 @@
 
   .project-card-list {
     width: 288px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 48px;
   }
 
   .project-card-list-item {
     border: 1px solid #f4f4fd;
     background: var(--WHITE, #fff);
-    margin-bottom: 48px;
   }
 }
 
